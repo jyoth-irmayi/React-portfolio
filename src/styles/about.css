@@ -1,0 +1,112 @@
+.about {
+    padding: 5rem 1.5rem;
+    background-color: var(--secondary-color);
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .about-card {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .about-card-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: rgba(59, 130, 246, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+  }
+  
+  .about-card-icon svg {
+    width: 2rem;
+    height: 2rem;
+    color: var(--primary-color);
+  }
+  
+  .about-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-card p {
+    color: var(--text-light);
+  }
+  
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  .about-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+  }
+  
+  .about-journey {
+    background-color: var(--card-bg);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+  }
+  
+  .about-journey h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .journey-item {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .journey-year {
+    width: 6rem;
+    flex-shrink: 0;
+    font-weight: 600;
+  }
+  
+  .journey-content h4 {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
+  
+  .journey-content p {
+    color: var(--text-light);
+  }
+  
+  @media (min-width: 768px) {
+    .about-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .about-cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .about-content {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  

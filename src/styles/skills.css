@@ -1,0 +1,117 @@
+.skills {
+    padding: 5rem 1.5rem;
+  }
+  
+  .skills-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .skills-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  
+  .skills-card {
+    padding: 1.5rem;
+  }
+  
+  .skills-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .badge-blue {
+    background-color: rgba(59, 130, 246, 0.1);
+    color: #2563eb;
+  }
+  
+  .badge-green {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #059669;
+  }
+  
+  .badge-purple {
+    background-color: rgba(139, 92, 246, 0.1);
+    color: #7c3aed;
+  }
+  
+  .badge-amber {
+    background-color: rgba(245, 158, 11, 0.1);
+    color: #d97706;
+  }
+  
+  .badge-rose {
+    background-color: rgba(244, 63, 94, 0.1);
+    color: #e11d48;
+  }
+  
+  .skills-proficiency {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skills-proficiency h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skill-progress {
+    margin-bottom: 1rem;
+  }
+  
+  .skill-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.25rem;
+  }
+  
+  .skill-name {
+    font-weight: 500;
+  }
+  
+  .skill-percentage {
+    color: var(--text-light);
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 0.5rem;
+    background-color: var(--secondary-color);
+    border-radius: 9999px;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: var(--primary-color);
+    border-radius: 9999px;
+  }
+  
+  @media (min-width: 768px) {
+    .skills-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .skills-proficiency-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .skills-cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
