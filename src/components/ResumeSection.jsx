@@ -11,7 +11,7 @@ const ResumeSection = () => {
 
         <div className="resume-download">
           <p>Download my resume to learn more about my experience, education, and skills.</p>
-          <a href="/resume.pdf" download className="btn btn-primary">
+          <a href="/Resume.pdf" download className="btn btn-primary">
             <Download size={18} className="mr-2" /> Download Resume
           </a>
         </div>
