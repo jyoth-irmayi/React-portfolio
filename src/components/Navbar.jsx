@@ -48,15 +48,9 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               </a>
             ))}
           </div>
-          <button className="theme-toggle" onClick={toggleDarkMode}>
-            {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-          </button>
         </div>
 
         <div className="flex items-center md:hidden">
-          <button className="theme-toggle" onClick={toggleDarkMode}>
-            {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-          </button>
           <button className="navbar-toggle" onClick={toggleMenu}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
